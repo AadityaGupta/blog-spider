@@ -5,9 +5,9 @@
 
 This Python program grabs the content of each article from certain Blogger account.
 
-Input£ºblogspot ID and format you want to save
+Input: bogspot ID and format you want to save.
 
-Output (to a local folder the python program runs)£º
+Output (to a local folder the python program runs):
 
 1.all articles in different formats (txt or doc)
 
@@ -63,10 +63,13 @@ then
 
 6.Write the test code
 
+<<<<<<< HEAD
 ###License
 
 blogger spider is licensed under the terms of the MIT License. See the [LICENSE file](https://github.com/checkcheckzz/blogger-spider/blob/master/LICENSE) for details.
 
+=======
+>>>>>>> 9e7503d3fc5c764505c17b0c55a017ea23a105d4
 
 
     
