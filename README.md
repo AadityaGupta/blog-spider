@@ -1,4 +1,6 @@
-#Blogger-spider
+[![logo](imgs/bloggerlogo.jpg)](https://github.com/checkcheckzz/blogger-spider)
+
+> Grab and save articles from blogger
 
 
 This Python program grabs the content of each article from certain Blogger account.
@@ -61,15 +63,10 @@ then
 
 6.Write the test code
 
-##More in my blog
+###License
 
-The three posts explain each important part of this project.
+blogger spider is licensed under the terms of the MIT License. See the [LICENSE file](https://github.com/checkcheckzz/blogger-spider/blob/master/LICENSE) for details.
 
-[A Blogger Spider-1](<http://itgeekworkhard.com/study/2013/12/21/A-Blogger-Spider-1/>)
-
-[A Blogger Spider-2](<http://itgeekworkhard.com/study/2013/12/22/A-Blogger-Spider-2/>)
-
-[A Blogger Spider-3](<http://itgeekworkhard.com/study/2013/12/26/A-Blogger-Spider-3/>)
 
 
     
