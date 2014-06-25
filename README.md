@@ -1,9 +1,10 @@
-[![logo](imgs/bloggerlogo.jpg)](https://github.com/checkcheckzz/blogger-spider)
+[![logo](imgs/bloggerlogo.jpg)](https://github.com/checkcheckzz/blogger-spider)  
+[![logo](imgs/wordpresslogo.jpg)](https://github.com/checkcheckzz/blogger-spider)
 
-> Grab and save articles from blogger
+> Grab and save articles from Blogger, Wordpress
 
 
-This Python program grabs the content of each article from certain Blogger account.
+This Python program grabs the content of each article from a Blogger account.
 
 Input: bogspot ID and format you want to save.
 
@@ -63,13 +64,12 @@ then
 
 6.Write the test code
 
-<<<<<<< HEAD
-###License
+
+##License
 
 blogger spider is licensed under the terms of the MIT License. See the [LICENSE file](https://github.com/checkcheckzz/blogger-spider/blob/master/LICENSE) for details.
 
-=======
->>>>>>> 9e7503d3fc5c764505c17b0c55a017ea23a105d4
+
 
 
     
