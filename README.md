@@ -3,22 +3,23 @@
 
 > Grab and save articles from Blogger, Wordpress
 
+##Example
 
-This Python program grabs the content of each article from a Blogger account.
+This Python program grabs the content of articles from a blogspot.com, wordpress.com account.
 
-Input: bogspot ID and format you want to save.
+Input: bogspot.com/wordpress.com ID and format you want to save.
 
 Output (to a local folder the python program runs):
 
 1.all articles in different formats (txt or doc)
 
-2.a log which records all processes and results
+2.a log which records the processes and results
 
 This first version has some limitations:
  
-1.It can not load content such as hyperlink, images, special symbol, or resources hosted on other websites
+1.It can't load content such as hyperlink, images, special symbol, or resources hosted on other websites
 
-2.It can only process the blogspot with certain blog archive structure: year as the top level, month year or month as the second level, article title as the third level
+2.It can only process the blogspot or wordpress with certain blog archive structure: year as the top level, month year or month as the second level, article title as the third level
 
 3.It only support English content now.
 
@@ -26,10 +27,7 @@ You can try blogspot ID such as yucoding (this is not my blog) and txt format at
 
 ##Note
 
-1.saving the content to local as doc format takes some time, you have to wait.
-
-2.saving the content to local as doc format uses a lot of CPU.
-
+1.Save the content to local as doc format takes some time and uses a lot of CPU, you have to wait.
 
 ##How to run
 
@@ -68,9 +66,3 @@ then
 ##License
 
 blog spider is licensed under the terms of the MIT License. See the [LICENSE file](https://github.com/checkcheckzz/blogger-spider/blob/master/LICENSE) for details.
-
-
-
-
-    
-
