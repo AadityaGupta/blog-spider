@@ -3,7 +3,26 @@
 
 > Grab and save articles from Blogger, Wordpress
 
-##Example
+##Installation
+
+The fast way is to download the exe file:
+
+[dropbox link](<https://www.dropbox.com/sh/lfhgu02asw1ebqp/f6zJuZDTJJ>)
+
+Put the exe file in an empty folder, and run it.  
+
+or install via pip  
+
+   sudo pip install blogspider
+
+##Dependencies
+
+[pywin32](<http://sourceforge.net/projects/pywin32/files/pywin32/Build%20218/>)
+
+##Testing
+	
+	
+##Note
 
 This Python program grabs the content of articles from a blogspot.com, wordpress.com account.
 
@@ -13,9 +32,9 @@ Output (to a local folder the python program runs):
 
 1.all articles in different formats (txt or doc)
 
-2.a log which records the processes and results
+2.a log file which records the processes and results
 
-This first version has some limitations:
+The first version has some limitations:
  
 1.It can't load content such as hyperlink, images, special symbol, or resources hosted on other websites
 
@@ -25,43 +44,7 @@ This first version has some limitations:
 
 You can try blogspot ID such as yucoding (this is not my blog) and txt format at first.
 
-##Note
-
-1.Save the content to local as doc format takes some time and uses a lot of CPU, you have to wait.
-
-##How to run
-
-The fast way is to download the exe file:
-
-[dropbox link](<https://www.dropbox.com/sh/lfhgu02asw1ebqp/f6zJuZDTJJ>)
-
-Put the exe file in an empty folder, and run it.  
-
-If you want to run the python file, you need first install the package pywin32 for python 2.7:
-
-
-[pywin32](<http://sourceforge.net/projects/pywin32/files/pywin32/Build%20218/>)
-
-then
-
-    git clone https://github.com/checkcheckzz/blogger-spider.git
-    cd blogger-spider
-    python blogv1.py
-    
-##Possible improvement in next version
-
-1.Add GUI and let user to choose which article they want to download 
-
-2.Improve the regex part to handle more complex archive structure 
-
-3.Grab pictures from article and save them in the proper position
-
-4.Use multiprocess to speed the saving process (GIL in python prevents multithread from working here)
-
-5.Build a http pool to replace urllib2 
-
-6.Write the test code
-
+Save the content to local as doc format takes some time and uses a lot of CPU, you have to wait.
 
 ##License
 
