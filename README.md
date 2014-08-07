@@ -11,9 +11,9 @@ The fast way is to download the exe file:
 
 Put the exe file in an empty folder, and run it.  
 
-or install via pip  
+or install via pip
 
-   sudo pip install blogspider
+    sudo pip install blogspider
 
 ##Dependencies
 
