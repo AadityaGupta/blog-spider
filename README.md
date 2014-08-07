@@ -46,6 +46,10 @@ You can try blogspot ID such as yucoding (this is not my blog) and txt format at
 
 Save the content to local as doc format takes some time and uses a lot of CPU, you have to wait.
 
+##History
+
+Check [Releases](https://github.com/checkcheckzz/blog-spider/releases) for detailed changelog.
+
 ##License
 
 blog spider is licensed under the terms of the MIT License. See the [LICENSE file](https://github.com/checkcheckzz/blogger-spider/blob/master/LICENSE) for details.
