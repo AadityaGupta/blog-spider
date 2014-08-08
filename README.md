@@ -1,7 +1,7 @@
 [![logo](imgs/bloggerlogo.jpg)](https://github.com/checkcheckzz/blogger-spider)  
 [![logo](imgs/wordpresslogo.jpg)](https://github.com/checkcheckzz/blogger-spider)
 
-> Grab, parse sand save contents of articles from Blogger, Wordpress
+> Grab, parse and save contents of articles from Blogger, Wordpress
 
 ##Installation
 
@@ -39,6 +39,8 @@ current version has some limitations:
 2.It can only process the blogspot or wordpress with certain blog archive structure: year as the top level, month year or month as the second level, article title as the third level
 
 3.It only support English content now.
+
+4.It only support blogger now.
 
 You can try blogspot ID such as yucoding (this is not my blog) and txt format at first.
 
