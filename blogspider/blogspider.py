@@ -326,8 +326,6 @@ class BlogSpider(object):
 	
 if __name__=='__main__':
 
-    print __doc__
-    print '-------------------------------------------------'
     mylog=Log_Process()
     logging.info('Begin A New Task')
     print 'Enter the blogspot ID'
