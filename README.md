@@ -1,7 +1,6 @@
 [![logo](imgs/bloggerlogo.jpg)](https://github.com/checkcheckzz/blogger-spider)  
-[![logo](imgs/wordpresslogo.jpg)](https://github.com/checkcheckzz/blogger-spider)
 
-> Grab, parse and save contents of articles from Blogger, Wordpress
+> Grab, parse and save contents of articles from Blogger
 
 ##Installation
 
@@ -11,20 +10,14 @@ The fast way is to download the exe file:
 
 Put the exe file in an empty folder, and run it.  
 
-or install via pip
-
-    pip install blogspider
 
 ##Dependencies
 
 [pywin32](http://sourceforge.net/projects/pywin32/files/pywin32/Build%20218/)
-
-##Testing
-	
 	
 ##Note
 
-Input: bogspot.com/wordpress.com ID and format you want to save.
+Input: bogspot.com/wordpress.com ID and format (txt or doc) you want to save.
 
 Output (to a local folder the python program runs):
 
@@ -34,17 +27,15 @@ Output (to a local folder the python program runs):
 
 current version has some limitations:
  
-1.It can't load content such as hyperlink, images, special symbol, or resources hosted on other websites
+1.It can't grap content such as hyperlink, images, special symbol, or resources hosted on other websites
 
-2.It can only process the blogspot or wordpress with certain blog archive structure: year as the top level, month year or month as the second level, article title as the third level
+2.It can only process the blogspot with certain blog archive structure: year as the top level, month year or month as the second level, article title as the third level
 
 3.It only support English content now.
 
-4.It only support blogger now.
-
 You can try blogspot ID such as yucoding (this is not my blog) and txt format at first.
 
-**Save the content to local as doc format takes some time and uses a lot of CPU, you have to wait**.
+**Saving the content to local folder as doc format takes some time and uses a lot of CPU, you have to wait for a while**.
 
 ##History
 
